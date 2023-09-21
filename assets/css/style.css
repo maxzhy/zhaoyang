@@ -73,8 +73,6 @@
   --bittersweet-shimmer: #FFCD00; /* contact form框颜色hsl(0, 43%, 51%) */
 
 
-
-
   /**
    * typography
    */
@@ -102,11 +100,11 @@
    * shadow
    */
   
-  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+  --shadow-1: -4px 8px 24px #090c14;/* 缩小后前景后面hsla(0, 0%, 0%, 0.25) */
+  --shadow-2: 0 16px 30px #090c14;/* 缩小后按钮边框hsla(0, 0%, 0%, 0.25) */
+  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);/* 缩小后send message */
+  --shadow-4: 0 25px 50px #090c14;/* 项目卡片后面hsla(0, 0%, 0%, 0.15) */
+  --shadow-5: 0 24px 80px #090c14;/* 前景大片后面hsla(0, 0%, 0%, 0.25) */
 
   /**
    * transition
