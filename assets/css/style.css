@@ -1148,10 +1148,10 @@ main {
 } */
 
 .contact-form { 
-  margin-bottom: 50px; 
+  margin-bottom: 110px; 
 }
 
-.form-title { margin-bottom: 20px; }
+.form-title { margin-bottom: 30px; }
 
 .input-wrapper {
   display: grid;
@@ -1175,11 +1175,11 @@ main {
 .form-input:focus { border-color: var(--orange-yellow-crayola); }
 
 textarea.form-input {
-  min-height: 100px;
+  min-height: 200px;
   height: 400px;
   max-height: 400px;
   resize: vertical;
-  margin-bottom: 25px;
+  margin-bottom:25px;
 }
 
 textarea.form-input::-webkit-resizer { display: none; }
